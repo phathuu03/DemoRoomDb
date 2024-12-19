@@ -40,6 +40,8 @@ class MainActivity : AppCompatActivity() {
             userViewModel.clearData()
             editAge.text.clear()
             editName.text.clear()
+            btnUpdate.visibility = View.INVISIBLE
+            btnInsert.visibility = View.VISIBLE
         }
 
 
